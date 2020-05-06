@@ -1,6 +1,6 @@
 @test
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Login to SehatQ
+  As a User I should be able to login to SehatQu successfully
 
   @login @positiveCase
   Scenario: As a User I should be able to login to SehatQu successfully using right credentials

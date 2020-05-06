@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Tidak ada notifikasi_img-circle</name>
+   <tag></tag>
+   <elementGuidId>6124a39e-b02a-40c2-b632-5aed647c823a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageHome']/div/div/div/div/div/div[3]/div/div[3]/div/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img-circle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cms.sehatq.com/cdn-cgi/image/f=auto/public/img/profile_placeholder.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Rafdi Shin</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onerror</name>
+      <type>Main</type>
+      <value>this.onerror=null;this.src='https://www.sehatq.com/cdn-cgi/image/f=auto/public/assets/img/avatar-default.png';</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageHome&quot;)/div[@class=&quot;page-header&quot;]/div[@class=&quot;header home js-headNav&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-3 align-self-center&quot;]/div[@class=&quot;text-right pr-1&quot;]/div[@class=&quot;inline-block v-align-m user-menu ml-2&quot;]/div[@class=&quot;dropdown dropdown-custom&quot;]/div[@class=&quot;dropdown-toggle&quot;]/div[@class=&quot;square d-block&quot;]/div[@class=&quot;square-content&quot;]/img[@class=&quot;img-circle&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pageHome']/div/div/div/div/div/div[3]/div/div[3]/div/div/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Rafdi Shin']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

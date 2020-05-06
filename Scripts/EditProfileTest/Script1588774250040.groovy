@@ -26,11 +26,27 @@ WebUI.click(findTestObject('Page_Login/a_Continue with Email'))
 
 WebUI.setText(findTestObject('Page_Login/input_Email_email'), 'rafshin40@gmail.com')
 
-WebUI.setText(findTestObject('Page_Login/input_show password_password'), GlobalVariable.Password)
+WebUI.setEncryptedText(findTestObject('Page_Login/input_show password_password'), '+8lfF++HKkFedFK3DGW3VA==')
 
 WebUI.click(findTestObject('Page_Login/button_Continue'))
 
-WebUI.verifyElementPresent(findTestObject('Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/span_Login berhasil'), 5)
+WebUI.click(findTestObject('Page_SehatQ Profil/img_Tidak ada notifikasi_img-circle'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_SehatQ Profil/span_Profil'))
+
+WebUI.click(findTestObject('Page_SehatQ Profil/i_Rafdi Shin_fs icon-chevron-circle-right c_715251'))
+
+WebUI.click(findTestObject('Page_SehatQ Profil/i_Berat (kg)_fs icon-edit font-16'))
+
+WebUI.setText(findTestObject('Page_SehatQ Profil/input_Tinggi Badan (cm)_height'), '170')
+
+WebUI.setText(findTestObject('Page_SehatQ Profil/input_Berat Badan (kg)_weight'), '60')
+
+WebUI.setText(findTestObject('Page_SehatQ Profil/input__address'), 'Perum Testing Jaya')
+
+WebUI.setText(findTestObject('Page_SehatQ Profil/input__phone'), '08213456789')
+
+WebUI.click(findTestObject('Page_SehatQ Profil/button_Simpan'))
+
+WebUI.verifyElementPresent(findTestObject('Page_SehatQ Profil/span_Edit profile berhasil'), 5)
 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rafdi Shin_fs icon-chevron-circle-right c_715251</name>
+   <tag></tag>
+   <elementGuidId>a317ba0f-b8ff-4789-999d-5b927d8b537b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs icon-chevron-circle-right color-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;page page-profile&quot;]/div[@class=&quot;page-content pt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8 col-lg-9 js-stickySidebar&quot;]/div[@class=&quot;theiaStickySidebar&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;mb-5&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-lg-7 mb-3 mb-lg-0&quot;]/div[@class=&quot;section-box&quot;]/div[@class=&quot;box-body&quot;]/div[@class=&quot;box-profile&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;align-self-center col-8 col-sm-8 col-md-9 col-lg-8&quot;]/div[@class=&quot;row row-5&quot;]/div[@class=&quot;col align-self-center text-right text-sm-left font-16&quot;]/a[1]/i[@class=&quot;fs icon-chevron-circle-right color-primary&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

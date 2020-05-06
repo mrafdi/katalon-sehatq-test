@@ -42,6 +42,19 @@ import cucumber.api.java.en.When
 
 public class LoginSteps {
 	
+	@Given("I go to SehatQ login page")
+	def visitSehatqLogin(){
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('https://www.sehatq.com/login/email')
+	}
+	
+	@When("I do login in login page")
+	def inputLoginDataDirect(String email, String pwd) {
+		WebUI.setText(findTestObject('Page_Login/input_Email_email'), 'rafshin40@gmail.com')
+
+		WebUI.setEncryptedText(findTestObject('Page_Login/input_show password_password'), '+8lfF++HKkFedFK3DGW3VA==')
+	}
+	
 	@When("I fill email field (.*) and password field (.*) in login page")
 	def inputLoginData(String email, String pwd) {
 		WebUI.setText(findTestObject('Page_Login/input_Email_email'), email)
