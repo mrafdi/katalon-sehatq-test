@@ -47,18 +47,72 @@ class RegisterSteps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Given("I go to Sehatqu website")
+	def goToSehatqPage() {
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('https://www.sehatq.com/')
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@When("I click account icon")
+	def clickAccountIcon() {
+		WebUI.click(findTestObject('Object Repository/Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/i_Tidak ada notifikasi_fs icon-profile colo_658490'))
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@When("I click Continue with email")
+	def clickContinueEmail() {
+		WebUI.click(findTestObject('Object Repository/Page_Login/a_Continue with Email'))
+	}
+
+	@When("I click Sign Up button")
+	def clickSignupBtn() {
+		WebUI.click(findTestObject('Object Repository/Page_Login/a_New to SehatQ Sign Up'))
+	}
+
+	@Then("I can see that I am in Sign Up page")
+	def verifySignupPage() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register/h1_Sign up'), 5)
+	}
+
+	@When("I input Nama Lengkap with (.*) Email with (.*) Password with (.*)")
+	def inputSignupData(String name, String email, String pwd) {
+		WebUI.setText(findTestObject('Object Repository/Page_Register/input_Nama Lengkap_name'), name)
+
+		WebUI.setText(findTestObject('Object Repository/Page_Register/input_Email_email'), email)
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/Page_Register/input_show password_password'), pwd)
+	}
+
+	@When("I check the agreement checkbox")
+	def checkAgreement() {
+		WebUI.click(findTestObject('Object Repository/Page_Register/span_Saya telah menyetujui SehatQ'))
+	}
+
+	@When("I click Continue button in register page")
+	def clickContinueRegisBtn() {
+		WebUI.click(findTestObject('Object Repository/Page_Register/button_Continue'))
+	}
+
+	@Then("I can see Pendaftaran Berhasil message")
+	def verifyPendaftaranBerhasilMsg() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/span_Pendaftaran berhasil'),
+				5)
+		WebUI.closeBrowser()
+	}
+
+	@Then("I can see error message on Nama")
+	def verifyErrorMsgNama() {
+		WebUI.verifyElementPresent(findTestObject('Page_Register/label_Email harus diisi dengan benar'), 5)
+	}
+
+	@Then("I can see error message on Email")
+	def verifyErrorMsgEmail() {
+		WebUI.verifyElementPresent(findTestObject('Page_Register/label_Kolom wajib diisi'), 5)
+	}
+
+	@Then("I can see error message on Password")
+	def verifyErrorMsgPassword() {
+		WebUI.verifyElementPresent(findTestObject('Page_Register/label_Password harus diisi minimal 6 karakter'), 5)
+
+		WebUI.closeBrowser()
 	}
 }

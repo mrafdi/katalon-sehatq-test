@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Tidak ada notifikasi_fs icon-profile colo_658490</name>
+   <tag></tag>
+   <elementGuidId>f8f8c0ed-44b2-4427-8eb2-21c3f347a4c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pageHome']/div/div/div/div/div/div[3]/div/div[3]/a/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs icon-profile color-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pageHome&quot;)/div[@class=&quot;page-header&quot;]/div[@class=&quot;header home js-headNav&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;header-wrapper&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-3 align-self-center&quot;]/div[@class=&quot;text-right pr-1&quot;]/div[@class=&quot;inline-block v-align-m user-menu ml-2&quot;]/a[1]/div[@class=&quot;dropdown-toggle&quot;]/i[@class=&quot;fs icon-profile color-primary&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pageHome']/div/div/div/div/div/div[3]/div/div[3]/a/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

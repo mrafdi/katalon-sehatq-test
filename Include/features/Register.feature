@@ -1,24 +1,28 @@
-@tag
+@test
 Feature: SehatQu Register Cases
   As a User I should be able to register to SehatQu
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
-
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+  @register @positiveCase
+  Scenario: As a User I should be able to register to SehatQu successfully
+    Given I go to Sehatqu website
+    When I click account icon
+    And I click Continue with email
+    And I click Sign Up button
+    Then I can see that I am in Sign Up page
+    When I input Nama Lengkap with 'Tester Sehatq' Email with 'testersehat@yopmail.com' Password with 'EIxfoJfk6/NHBldnX1zqmw=='
+    And I check the agreement checkbox
+    And I click Continue button in register page
+		Then I can see Pendaftaran Berhasil message
+		
+  @register @negativeCase
+  Scenario: As a User I should not be able to register to SehatQu if the field is blank
+    Given I go to Sehatqu website
+    When I click account icon
+    And I click Continue with email
+    And I click Sign Up button
+    Then I can see that I am in Sign Up page
+    When I check the agreement checkbox
+    And I click Continue button in register page
+		Then I can see error message on Nama
+		And I can see error message on Email
+		And I can see error message on Password
