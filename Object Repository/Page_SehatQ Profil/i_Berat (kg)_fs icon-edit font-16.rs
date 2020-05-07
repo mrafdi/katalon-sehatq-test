@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/a/i</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon-edit</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

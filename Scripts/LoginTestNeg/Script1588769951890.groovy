@@ -30,7 +30,9 @@ WebUI.setEncryptedText(findTestObject('null'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Login/span_Email harus diisi dengan benar'), 5)
+WebUI.verifyElementPresent(findTestObject('Page_Login/label_Email harus diisi dengan benar'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Page_Login/label_Password harus diisi minimal 6 karakter'), 5)
 
 WebUI.closeBrowser()
 

@@ -14,27 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.sehatq.com/')
-
-WebUI.click(findTestObject('Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/i_Tidak ada notifikasi_fs icon-profile colo_658490'))
-
-Windows.delay(3)
-
-WebUI.click(findTestObject('Page_Login/a_Continue with Email'))
-
-WebUI.setText(findTestObject('Page_Login/input_Email_email'), 'rafshin40@gmail.com')
-
-WebUI.setText(findTestObject('Page_Login/input_show password_password'), GlobalVariable.Password)
-
-WebUI.click(findTestObject('Page_Login/button_Continue'))
-
-WebUI.click(findTestObject('Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/i_Tidak ada notifikasi_fs icon-profile colo_658490'))
-
-WebUI.verifyElementPresent(findTestObject('Page_SehatQ Profil/span_Profil'), 5)
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFile('Include/features/EditProfile.feature')
 

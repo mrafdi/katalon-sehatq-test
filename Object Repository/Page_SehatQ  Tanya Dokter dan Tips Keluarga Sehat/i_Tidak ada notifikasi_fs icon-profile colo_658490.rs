@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='pageHome']/div/div/div/div/div/div[3]/div/div[3]/a/div/i</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.jURJQQ</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

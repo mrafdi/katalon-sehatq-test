@@ -34,9 +34,13 @@ WebUI.click(findTestObject('Page_SehatQ Profil/img_Tidak ada notifikasi_img-circ
 
 WebUI.click(findTestObject('Page_SehatQ Profil/span_Profil'))
 
+Windows.sendKeys(findWindowsObject('Page_SehatQ Profil/input_Tinggi Badan (cm)_height'), '${KEY_PGDN}')
+
 WebUI.click(findTestObject('Page_SehatQ Profil/i_Rafdi Shin_fs icon-chevron-circle-right c_715251'))
 
 WebUI.click(findTestObject('Page_SehatQ Profil/i_Berat (kg)_fs icon-edit font-16'))
+
+WebUI.scrollToElement(findTestObject('Page_SehatQ Profil/label_Jenis Kelamin'), 5)
 
 WebUI.setText(findTestObject('Page_SehatQ Profil/input_Tinggi Badan (cm)_height'), '170')
 

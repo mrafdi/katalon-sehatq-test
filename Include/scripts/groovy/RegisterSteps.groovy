@@ -16,6 +16,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
@@ -60,6 +61,7 @@ class RegisterSteps {
 
 	@When("I click Continue with email")
 	def clickContinueEmail() {
+		Windows.delay(3)
 		WebUI.click(findTestObject('Object Repository/Page_Login/a_Continue with Email'))
 	}
 

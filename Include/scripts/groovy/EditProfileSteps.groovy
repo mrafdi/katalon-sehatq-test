@@ -51,24 +51,26 @@ class EditProfileSteps {
 	def clickMyAccountIcon() {
 		WebUI.click(findTestObject('Page_SehatQ Profil/img_Tidak ada notifikasi_img-circle'))
 	}
-	
+
 	@When("I select Profile menu")
 	def clickProfileMenu() {
 		WebUI.click(findTestObject('Page_SehatQ Profil/span_Profil'))
 	}
-	
+
 	@When("I click arrow icon on my profile name")
 	def clickArrowIconProfileName() {
 		WebUI.click(findTestObject('Page_SehatQ Profil/i_Rafdi Shin_fs icon-chevron-circle-right c_715251'))
 	}
-	
+
 	@When("I click edit icon on profile")
 	def clickEditProfile() {
-		WebUI.click(findTestObject('Page_SehatQ Profil/i_Rafdi Shin_fs icon-chevron-circle-right c_715251'))
+		WebUI.click(findTestObject('Page_SehatQ Profil/i_Berat (kg)_fs icon-edit font-16'))
 	}
-	
+
 	@When("I edit Tinggi Badan field (.*) and Berat Badan field (.*) in edit profile page")
-	def editProfilTinggiBerat(int tinggi, int berat) {
+	def editProfilTinggiBerat(String tinggi, String berat) {		
+		WebUI.scrollToElement(findTestObject('Page_SehatQ Profil/label_Jenis Kelamin'), 5)
+		
 		WebUI.setText(findTestObject('Page_SehatQ Profil/input_Tinggi Badan (cm)_height'), tinggi)
 
 		WebUI.setText(findTestObject('Page_SehatQ Profil/input_Berat Badan (kg)_weight'), berat)

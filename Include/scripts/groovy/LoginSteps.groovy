@@ -49,10 +49,13 @@ public class LoginSteps {
 	}
 	
 	@When("I do login in login page")
-	def inputLoginDataDirect(String email, String pwd) {
+	def inputLoginDataDirect() {
 		WebUI.setText(findTestObject('Page_Login/input_Email_email'), 'rafshin40@gmail.com')
 
 		WebUI.setEncryptedText(findTestObject('Page_Login/input_show password_password'), '+8lfF++HKkFedFK3DGW3VA==')
+		
+		WebUI.click(findTestObject('Page_Login/button_Continue'))
+		
 	}
 	
 	@When("I fill email field (.*) and password field (.*) in login page")
@@ -69,14 +72,23 @@ public class LoginSteps {
 
 	@Then("I can see that I am logged in successfully")
 	def verifySuccessLogin() {
-		WebUI.verifyElementPresent(findTestObject('Page_SehatQ  Tanya Dokter dan Tips Keluarga Sehat/span_Login berhasil'), 5)
+		WebUI.click(findTestObject('Page_SehatQ Profil/img_Tidak ada notifikasi_img-circle'))
+
+		WebUI.verifyElementPresent(findTestObject('Page_SehatQ Profil/span_Profil'), 5)
 
 		WebUI.closeBrowser()
 	}
 	
-	@Then("I can see the warning message on login page")
-	def verifyLoginPageWarning() {
-		WebUI.verifyElementPresent(findTestObject('Page_Login/span_Email harus diisi dengan benar'), 5)
+	@Then("I can see the warning message about email on login page")
+	def verifyLoginPageEmailWarning() {
+		WebUI.verifyElementPresent(findTestObject('Page_Login/label_Email harus diisi dengan benar'), 5)
+
+		WebUI.closeBrowser()
+	}
+	
+	@Then("I can see the warning message about password on login page")
+	def verifyLoginPagePasswordWarning() {
+		WebUI.verifyElementPresent(findTestObject('Page_Login/label_Password harus diisi minimal 6 karakter'), 5)
 
 		WebUI.closeBrowser()
 	}

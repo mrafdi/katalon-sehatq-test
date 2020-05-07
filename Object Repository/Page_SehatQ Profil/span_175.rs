@@ -1,103 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Continue with Email</name>
+   <name>span_175</name>
    <tag></tag>
-   <elementGuidId>28d2f21e-9958-4da7-bde3-ad1c7e3957c9</elementGuidId>
+   <elementGuidId>d31308eb-fabd-4810-a5fe-2067b647440e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='content']/div/div/div[2]/div/div/div/div/div[2]/div/div/a[3]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.btn-outline-primary</value>
+         <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://www.sehatq.com/login/email</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-block rounded btn-outline-primary py-2</value>
+      <value>color-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Continue with Email </value>
+      <value>175</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[@class=&quot;auth-wrapper&quot;]/div[@class=&quot;page page-auth&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;pt-5 pb-5&quot;]/div[@class=&quot;auth-box position-static mt-4&quot;]/div[@class=&quot;row no-gutters&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;auth-content min-layout&quot;]/div[@class=&quot;auth-button-group&quot;]/a[@class=&quot;btn btn-block rounded btn-outline-primary py-2&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;page page-profile&quot;]/div[@class=&quot;page-content pt-5&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8 col-lg-9 js-stickySidebar&quot;]/div[@class=&quot;theiaStickySidebar&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;mb-5&quot;]/div[@class=&quot;section-box border-radius-10 p-2 with-border with-shadow&quot;]/div[@class=&quot;row row-10&quot;]/div[@class=&quot;col-lg-6 mb-3 mb-lg-0&quot;]/div[@class=&quot;pt-0 p-4&quot;]/div[@class=&quot;section-box&quot;]/div[@class=&quot;box-body&quot;]/div[@class=&quot;box-profile&quot;]/div[@class=&quot;row row-10 mt-4 mt-sm-3&quot;]/div[@class=&quot;col-4&quot;]/div[@class=&quot;spec large&quot;]/div[@class=&quot;value&quot;]/span[@class=&quot;color-primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content']/div/div/div[2]/div/div/div/div/div[2]/div/div/a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Continue with Email')]</value>
+      <value>//div[@id='content']/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lain kali'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(Thn Bln)'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kumpulan Artikel dan Forum'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tinggi (cm)'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Continue with Email']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berat (kg)'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://www.sehatq.com/login/email')]</value>
+      <value>//*/text()[normalize-space(.)='175']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[3]</value>
+      <value>//div[2]/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>
